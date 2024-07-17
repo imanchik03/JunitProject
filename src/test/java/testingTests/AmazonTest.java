@@ -17,6 +17,11 @@ public class AmazonTest {
     public void amazonTest2(){
         System.out.println("AMAZON TEST 2");
     }
+
+    @BeforeSuite
+    public static void beforeSuite1(){
+        System.out.println("THIS IS BEFORE SUITE FROM AMAZON");
+    }
     @Test
     public void amazonTest3(){
         System.out.println("AMAZON TEST 3");
