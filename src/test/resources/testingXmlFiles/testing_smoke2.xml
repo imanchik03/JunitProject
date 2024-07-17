@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test">
+    <test name="Smoke Test">
+        <classes>
+            <class name="testingTests.GoogleTest">
+                <methods>
+                    <include name="googleTest1"></include>
+                </methods>
+            </class>
+            <class name="testingTests.AmazonTest">
+                <methods>
+                    <exclude name="amazonTest1"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
